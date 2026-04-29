@@ -15,7 +15,7 @@ def main():
                 print("\nTop Results:\n")
                 for i, post in enumerate(results, 1):
                     print(f"{i}. {post['title']}")
-                    print(f"   🔗 {post['url']}\n")
+                    print(f"   >  {post['url']}\n")
             else:
                 print("No results found.\n")
 
